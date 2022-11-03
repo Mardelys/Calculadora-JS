@@ -12,7 +12,7 @@ body{
     align-items: center;
     height: 100vh;
 }
-.calculator{
+.calculadora{
     display: grid;
     grid-template-columns: repeat(4, 75px);
     grid-template-rows: 160px repeat(5,75px);
@@ -44,13 +44,14 @@ button:active{
     text-align: right;
     justify-content: space-between;
     word-break: break-all;
+    
 }
 .col-2{
     grid-column: span 2;
 }
-#a-value{
+#valor-actual{
     font-size: 1.5em;
 }
-#b-value{
+#valor-anterior{
     font-size: 2em;
 }

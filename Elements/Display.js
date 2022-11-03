@@ -3,6 +3,16 @@ class Display{
         this.displayAValue = displayAValue;
         this.displayBValue = displayBValue;
         this.calculadora = new Calculator();
-        this.valor
+        this.AValue ='';
+        this.BValue = '';
+    }
+    agregarNumero(numero) {
+        this.AValue = numero;
+        this.imprimirValores(); 
+    }
+
+    imprimirValores(){
+        this.displayAValue.textContent = this.AValue;
+        this.displayBValue.textContent = this.BValue;
     }
 }
