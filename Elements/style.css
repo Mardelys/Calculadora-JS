@@ -27,8 +27,8 @@ body.dark{
     cursor: pointer;
     display: flex;
     outline:none;
-    top: 350px;
-    left: 15%;
+    top: 60px;
+    left: 14%;
 }
 span{
     width: 30px;
@@ -66,10 +66,10 @@ span{
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 160px repeat(5,80px);
     background-color: #eee8e8;
-    padding: 25px;
+    padding: 30px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px 3px rgb(68, 68, 68);
-    width: 40%;
+    width: 30%;
 }
 body.dark .calculadora{
     box-shadow: 5px 5px 20px 3px rgb(26, 6, 21);
@@ -109,7 +109,7 @@ body.dark button:active{
 
 .display{
     grid-column: 1/-1;
-    padding: 20px;
+    padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -142,16 +142,19 @@ body.dark #valor-anterior{
 body.dark #valor-actual{
     color:#fa8ed4 ;
 }
-@media (min-width: 1540px) {
+@media (min-width: 1640px) {
     .calculadora{
         width: 35%;
         padding: 50px;
-        grid-template-rows: 160px repeat(5,100px);
-        font-size: 22px;
+        grid-template-rows: 160px repeat(5,130px);
+        font-size: 30px;
     }
     .switch{
-        top: 300px;
+        top: 200px;
         left: 20%;
+    }
+    #valor-anterior{
+        font-size: 2em;
     }
 }
 @media (max-width: 850px) and (min-width: 481px) {
@@ -160,24 +163,31 @@ body.dark #valor-actual{
         
     }
     .switch{
-        top: 280px;
-        left: 5%;
+        top: 80px;
+        left: 2%;
     }
 }
 @media (max-width: 480px)  {
     .calculadora{
         width: 80%;
+        grid-template-rows: 160px repeat(5,60px);
         
     }
     .switch{
-        top: 280px;
+        top: 110px;
         left: 5%;
     }
 }
 @media (max-width:380px) {
     .calculadora{
-        width: 80%;
-        
+        width: 70%;
+        font-size: 10px;
+        grid-template-rows: 160px repeat(5,50px);
     }
+    .switch{
+        top: 50px;
+        left: 5%;
+    }
+
 
 }
