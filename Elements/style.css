@@ -69,7 +69,7 @@ span{
     padding: 25px;
     border-radius: 20px;
     box-shadow: 5px 5px 20px 3px rgb(68, 68, 68);
-    width: 50%;
+    width: 40%;
 }
 body.dark .calculadora{
     box-shadow: 5px 5px 20px 3px rgb(26, 6, 21);
@@ -123,8 +123,8 @@ body.dark button:active{
     
 }
 body.dark .display{
-    background-color: rgb(194, 190, 190);
-    box-shadow: 1px 1px 10px 1px rgb(41, 2, 28);
+    background-color: rgb(39, 37, 37);
+    box-shadow: none;
 }
 .col-2{
     grid-column: span 2;
@@ -133,5 +133,15 @@ body.dark .display{
     font-size: 1.5em;
 }
 #valor-anterior{
-    font-size: 2em;
+    font-size: 3em;
+    color:rgba(181,73,91,1) ;
 }
+body.dark #valor-anterior{
+    color:#fcfcfc ;
+}
+body.dark #valor-actual{
+    color:#fa8ed4 ;
+}
+@media (max-width: 800px) and (min-width: 481px) {
+@media (max-width: 480px)  {
+@media (max-width:380px) {
