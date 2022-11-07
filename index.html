@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Elements/style.css">
     <title>Calculadora Javascript</title>
+    <link rel="shortcut icon" href="/img/2995909.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="/Elements/Calculadora.js" type="text/javascript"></script>
     <script src="/Elements/index.js" type="text/javascript" defer></script>
@@ -17,12 +18,14 @@
         <span><i class="fa fa-moon-o" aria-hidden="true"></i></span>
     </button>
     <div class="container">
+        <!--Div que hace el borde de la calculadora-->
         <div class="calculadora">
+            <!-- Se crea una caja con el contenedor de los valores de lo que es la pantalla de la calculadora-->
             <div class="display">
                 <div id="valor-anterior"></div>
                 <div id="valor-actual"></div>
             </div>
-            
+            <!--Se definen los botones que forman parte de la calculadora, se definen las clases para que sea mas facil  añadir los estilos-->
             <button class="col-2 tecla" onclick="display.borrarTodo()">C</button>
             <button onclick="display.borrar()">&larr;</button>
             <button class="operador " value="dividir">/</button>

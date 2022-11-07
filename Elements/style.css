@@ -1,3 +1,4 @@
+/* Se añaden los estilos correspondientes*/
 *{
     font-family: Arial, Helvetica, sans-serif
     ;
@@ -19,6 +20,7 @@ body.dark{
     height: 100vh;
     
 }
+/* Se crea un botón adicional que esta por fuera de la calculadora para añadirle la funcionalidad de cambiar nuestro documento de día a noche, es decir permitir el cambio de tema en la página web*/
 .switch{
     background: #1c1c53;
     border-radius: 1000px;
@@ -98,12 +100,12 @@ body.dark button{
 body.dark .tecla{
     background-image: linear-gradient( 99deg,  #731251 10.6%, rgb(0, 0, 0) 118% );
 }
+body.dark .tecla:active{
+    background-color: #000000;
+}
+
 button:active{
     background-color: #ffffff;
-
-}
-body.dark button:active{
-    background-color: #000;
 
 }
 
@@ -119,9 +121,8 @@ body.dark button:active{
     word-break: break-all;
     margin-bottom: 15px;
     border-radius: 10px;
-    
-    
 }
+
 body.dark .display{
     background-color: rgb(39, 37, 37);
     box-shadow: none;
