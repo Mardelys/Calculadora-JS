@@ -164,7 +164,7 @@ body.dark #valor-actual{
         
     }
     .switch{
-        top: 80px;
+        top: 90px;
         left: 2%;
     }
 }
@@ -186,7 +186,7 @@ body.dark #valor-actual{
         grid-template-rows: 160px repeat(5,50px);
     }
     .switch{
-        top: 50px;
+        top: 30px;
         left: 5%;
     }
 
