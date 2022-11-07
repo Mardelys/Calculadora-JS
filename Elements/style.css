@@ -186,7 +186,7 @@ body.dark #valor-actual{
         grid-template-rows: 160px repeat(5,50px);
     }
     .switch{
-        top: 80px;
+        top: 40px;
         left: 5%;
     }
 
